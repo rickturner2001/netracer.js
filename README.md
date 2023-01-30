@@ -39,3 +39,11 @@ create your `.env` file
 NEXTAUTH_URL=http://localhost:3000
 DATABASE_URL=<your database url>
 ```
+
+### Apply migration
+
+`npx prisma db push`
+
+### run server
+
+`npm run dev`
